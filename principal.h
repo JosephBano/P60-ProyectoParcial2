@@ -15,6 +15,11 @@ public:
     Principal(QWidget *parent = nullptr);
     ~Principal();
 
+private slots:
+    //void on_info1_textEdited(const QString &arg1);
+
+    void on_info1_inputRejected();
+
 private:
     Ui::Principal *ui;
 };
