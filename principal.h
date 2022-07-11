@@ -16,7 +16,7 @@ public:
     ~Principal();
 
 private slots:
-    //void on_info1_textEdited(const QString &arg1);
+    void on_info1_textEdited(const QString &arg1);
 
     void on_info1_inputRejected();
 
