@@ -15,13 +15,13 @@ Principal::~Principal()
 }
 
 
-/*void Principal::on_info1_textEdited(const QString &arg1)
+void Principal::on_info1_textEdited(const QString &arg1)
 {
-    ui->info1->setText("Los Minions [120]");
 
-}*/
+
+}
 
 void Principal::on_info1_inputRejected()
 {
-    ui->info1->setText("Pan");
+
 }
