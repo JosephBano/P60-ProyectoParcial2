@@ -10,4 +10,5 @@ int main(int argc, char *argv[])
     return a.exec();
 }
 
-//tufiño hp
+//Prueba Joseph
+//Prueba Carlos
