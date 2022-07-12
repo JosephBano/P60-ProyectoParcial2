@@ -68,7 +68,13 @@
          <number>0</number>
         </property>
         <item>
-         <widget class="QLabel" name="img1">
+         <widget class="QPushButton" name="comprar1">
+          <property name="minimumSize">
+           <size>
+            <width>130</width>
+            <height>170</height>
+           </size>
+          </property>
           <property name="styleSheet">
            <string notr="true">border-image: url(:/Resourses/MiniosCartelera.jpg);</string>
           </property>
@@ -78,19 +84,34 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit">
-          <property name="minimumSize">
-           <size>
-            <width>0</width>
-            <height>50</height>
-           </size>
+         <widget class="QLabel" name="label">
+          <property name="font">
+           <font>
+            <family>Ubuntu Condensed</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Minions: Nace un Villano</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="comprar1">
+         <widget class="QLabel" name="label_10">
+          <property name="font">
+           <font>
+            <family>Ubuntu Condensed</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
           <property name="text">
-           <string>Comprar</string>
+           <string>118 min</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -119,29 +140,50 @@
          <number>0</number>
         </property>
         <item>
-         <widget class="QLabel" name="img2">
+         <widget class="QPushButton" name="comprar2">
+          <property name="minimumSize">
+           <size>
+            <width>130</width>
+            <height>170</height>
+           </size>
+          </property>
           <property name="styleSheet">
            <string notr="true">border-image: url(:/Resourses/ThorCartelera.jpg);</string>
           </property>
           <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           <string/>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="info2">
-          <property name="minimumSize">
-           <size>
-            <width>0</width>
-            <height>50</height>
-           </size>
+         <widget class="QLabel" name="label_2">
+          <property name="font">
+           <font>
+            <family>Ubuntu Condensed</family>
+            <pointsize>9</pointsize>
+           </font>
           </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QPushButton" name="comprar2">
           <property name="text">
-           <string>Comprar</string>
+           <string>Thor: Love and Thunder</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_9">
+          <property name="font">
+           <font>
+            <family>Ubuntu Condensed</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>157 min</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -170,29 +212,50 @@
          <number>0</number>
         </property>
         <item>
-         <widget class="QLabel" name="img3">
+         <widget class="QPushButton" name="comprar3">
+          <property name="minimumSize">
+           <size>
+            <width>130</width>
+            <height>170</height>
+           </size>
+          </property>
           <property name="styleSheet">
            <string notr="true">border-image: url(:/Resourses/SevenCartelera.jpg);</string>
           </property>
           <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           <string/>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="info3">
-          <property name="minimumSize">
-           <size>
-            <width>0</width>
-            <height>50</height>
-           </size>
+         <widget class="QLabel" name="label_3">
+          <property name="font">
+           <font>
+            <family>Ubuntu Condensed</family>
+            <pointsize>9</pointsize>
+           </font>
           </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QPushButton" name="comprar3">
           <property name="text">
-           <string>Comprar</string>
+           <string>SE7VEN</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_8">
+          <property name="font">
+           <font>
+            <family>Ubuntu Condensed</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>127 min</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -221,7 +284,13 @@
          <number>0</number>
         </property>
         <item>
-         <widget class="QLabel" name="img4">
+         <widget class="QPushButton" name="comprar4">
+          <property name="minimumSize">
+           <size>
+            <width>130</width>
+            <height>170</height>
+           </size>
+          </property>
           <property name="styleSheet">
            <string notr="true">border-image: url(:/Resourses/LightyearCartelera.jpg);</string>
           </property>
@@ -231,19 +300,34 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="info4">
-          <property name="minimumSize">
-           <size>
-            <width>0</width>
-            <height>50</height>
-           </size>
+         <widget class="QLabel" name="label_4">
+          <property name="font">
+           <font>
+            <family>Ubuntu Condensed</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Ligtyear</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="comprar4">
+         <widget class="QLabel" name="label_7">
+          <property name="font">
+           <font>
+            <family>Ubuntu Condensed</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
           <property name="text">
-           <string>Comprar</string>
+           <string>105 min</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -272,7 +356,13 @@
          <number>0</number>
         </property>
         <item>
-         <widget class="QLabel" name="img5">
+         <widget class="QPushButton" name="comprar5">
+          <property name="minimumSize">
+           <size>
+            <width>130</width>
+            <height>170</height>
+           </size>
+          </property>
           <property name="styleSheet">
            <string notr="true">border-image: url(:/Resourses/JurworldCartelera.jpg);</string>
           </property>
@@ -282,22 +372,37 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="info5">
-          <property name="minimumSize">
-           <size>
-            <width>0</width>
-            <height>50</height>
-           </size>
+         <widget class="QLabel" name="label_5">
+          <property name="font">
+           <font>
+            <family>Ubuntu Condensed</family>
+            <pointsize>9</pointsize>
+           </font>
           </property>
-          <property name="styleSheet">
-           <string notr="true">border-color: rgb(255, 0, 0);</string>
+          <property name="text">
+           <string>Jurassic World</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::AutoText</enum>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="comprar5">
+         <widget class="QLabel" name="label_6">
+          <property name="font">
+           <font>
+            <family>Ubuntu Condensed</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
           <property name="text">
-           <string>Comprar</string>
+           <string>120 min</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>

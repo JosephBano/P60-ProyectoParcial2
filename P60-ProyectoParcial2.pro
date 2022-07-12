@@ -17,13 +17,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     main.cpp \
-    principal.cpp
+    principal.cpp \
+    salaui.cpp
 
 HEADERS += \
-    principal.h
+    principal.h \
+    salaui.h
 
 FORMS += \
-    principal.ui
+    principal.ui \
+    salaui.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
