@@ -77,6 +77,23 @@
           </property>
          </widget>
         </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="comprar1">
+          <property name="text">
+           <string>Comprar</string>
+          </property>
+         </widget>
+        </item>
        </layout>
       </widget>
      </item>
@@ -118,6 +135,13 @@
             <width>0</width>
             <height>50</height>
            </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="comprar2">
+          <property name="text">
+           <string>Comprar</string>
           </property>
          </widget>
         </item>
@@ -165,6 +189,13 @@
           </property>
          </widget>
         </item>
+        <item>
+         <widget class="QPushButton" name="comprar3">
+          <property name="text">
+           <string>Comprar</string>
+          </property>
+         </widget>
+        </item>
        </layout>
       </widget>
      </item>
@@ -206,6 +237,13 @@
             <width>0</width>
             <height>50</height>
            </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="comprar4">
+          <property name="text">
+           <string>Comprar</string>
           </property>
          </widget>
         </item>
@@ -253,6 +291,13 @@
           </property>
           <property name="styleSheet">
            <string notr="true">border-color: rgb(255, 0, 0);</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="comprar5">
+          <property name="text">
+           <string>Comprar</string>
           </property>
          </widget>
         </item>
