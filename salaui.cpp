@@ -14,18 +14,13 @@ SalaUI::~SalaUI()
     delete ui;
 }
 
-/*void SalaUI::dibujar()
-{
-    painter.drawLine(x+25,y+450,x+475,y+450);
-}
-*/
-
-void SalaUI::on_pushButton_clicked()
-{
-
-}
 
 void SalaUI::on_btnCancelar_released()
 {
    close();
+}
+
+void SalaUI::on_btnComprar_released()
+{
+
 }

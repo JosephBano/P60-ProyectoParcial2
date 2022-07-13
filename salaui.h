@@ -17,9 +17,10 @@ public:
     ~SalaUI();
 
 private slots:
-    void on_pushButton_clicked();
 
     void on_btnCancelar_released();
+
+    void on_btnComprar_released();
 
 private:
     Ui::SalaUI *ui;

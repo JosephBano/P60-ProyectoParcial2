@@ -25,6 +25,7 @@ HEADERS += \
     salaui.h
 
 FORMS += \
+    Horarios.ui \
     principal.ui \
     salaui.ui
 
