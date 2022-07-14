@@ -16,16 +16,21 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    distribuidor.cpp \
+    facturaui.cpp \
     main.cpp \
     principal.cpp \
     salaui.cpp
 
 HEADERS += \
+    distribuidor.h \
+    facturaui.h \
     principal.h \
     salaui.h
 
 FORMS += \
-    Horarios.ui \
+    distribuidor.ui \
+    facturaui.ui \
     principal.ui \
     salaui.ui
 

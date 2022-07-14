@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include <QPainter>
+#include <distribuidor.h>
 
 namespace Ui {
 class SalaUI;
@@ -21,6 +22,8 @@ private slots:
     void on_btnCancelar_released();
 
     void on_btnComprar_released();
+
+    void on_pushButton_released();
 
 private:
     Ui::SalaUI *ui;
