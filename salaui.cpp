@@ -1,7 +1,7 @@
 #include "salaui.h"
 #include "ui_salaui.h"
 #include "principal.h"
-
+#include "facturaui.h"
 SalaUI::SalaUI(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::SalaUI)

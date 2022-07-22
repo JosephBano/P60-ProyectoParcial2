@@ -1,5 +1,7 @@
 #include "principal.h"
-
+#include <QDialog>
+#include <QAbstractButton>
+#include <facturaui.h>
 #include <QApplication>
 
 int main(int argc, char *argv[])
@@ -14,5 +16,5 @@ int main(int argc, char *argv[])
 //Prueba Carlos
 //Prueba Pedro
 //Prueba y fusion Bryan
-
+//Prueba Pedro boletos
 
