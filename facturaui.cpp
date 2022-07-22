@@ -3,7 +3,7 @@
 
 FacturaUI::FacturaUI(QWidget *parent) :
     QWidget(parent),
-    ui(new Ui::FacturaUI)
+    ui(new  Ui::FacturaUI)
 {
     ui->setupUi(this);
 }

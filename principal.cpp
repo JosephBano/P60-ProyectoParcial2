@@ -27,7 +27,7 @@ void Principal::on_info1_inputRejected()
 
 void Principal::on_comprar1_clicked()
 {
-    SalaUI *ventana = new SalaUI;
+    SalaUI * ventana = new SalaUI;
     ventana->show();
 }
 

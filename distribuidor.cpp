@@ -15,6 +15,6 @@ Distribuidor::~Distribuidor()
 
 void Distribuidor::on_buttonBox_clicked(QAbstractButton *button)
 {
-    FacturaUI *factura = new FacturaUI;
+     FacturaUI *factura = new FacturaUI;
     factura->show();
 }

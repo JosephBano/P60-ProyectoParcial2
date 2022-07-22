@@ -27,6 +27,6 @@ void SalaUI::on_btnComprar_released()
 
 void SalaUI::on_pushButton_released()
 {
-    Distribuidor *ventana = new Distribuidor;
+    Distribuidor  *ventana = new Distribuidor;
     ventana->show();
 }
