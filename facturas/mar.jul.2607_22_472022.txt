@@ -1,0 +1,28 @@
+--------------Compra--------------
+---mar. jul. 26 07:22:11 2022---
+---ID: 2---
+---Titulo: Thor: Love and Thunder---
+---Duracion: 157min---
+---Cantidad de Asientos: 3---
+---Asientos: 
+------B2
+------C2
+------D2
+
+---Adultos:       3 .... 21$---
+---Niños:           0 .... 0$---
+---Adultos Mayores: 0 .... 0$---
+
+
+---------------------------------------------------------------------------
+-----Total de Compra:    21$---
+
+-------------FACTURA---------------
+
+---Nombre: Joseph Andres Baño---
+
+---Telefono: 0966094903---
+
+---Direccion: Los Andes y Chambo---
+
+---Correo: andres.jbo2003@gmail.com---
