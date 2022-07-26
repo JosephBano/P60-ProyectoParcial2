@@ -3,7 +3,6 @@
 
 #include <QMainWindow>
 #include"pelicula.h"
-#include"compra.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -17,6 +16,7 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
     void CrearCartelera();
+    void Reset();
 
 private slots:
     void on_c1_clicked();
@@ -57,13 +57,17 @@ private slots:
 
     void on_bComprar_clicked();
 
+    void on_pushButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     QString AD = ":/new/prefix1/iconos/asiento-de-cine.png";
     QString AO = ":/new/prefix1/iconos/Butaca.png";
     QVector<Pelicula *> p;
-    QVector<compra *> c;
     QString ruta;
+    QString rutaCompras;
+    QString rutaFacturas;
+    int nA = 0;
     int pos;
 };
 #endif // MAINWINDOW_H

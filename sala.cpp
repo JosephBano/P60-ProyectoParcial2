@@ -36,7 +36,7 @@ void sala::Create(QString r){
 
         QStringList s = texto.split("\r\n");
 
-        //qDebug()<<s;
+        qDebug()<<s;
 
 
 
@@ -55,7 +55,7 @@ void sala::Create(QString r){
             }
         }
 
-        a.flush();
+       a.flush();
         a.close();
 
     }
@@ -64,6 +64,10 @@ void sala::Create(QString r){
 void sala::Compro(int i, int j){
     this->a[i][j] = true;
 
+
+}
+
+void sala::FinCompra(){
     QFile a(this->ruta);
     QString texto = " ";
 
@@ -74,10 +78,10 @@ void sala::Compro(int i, int j){
     for(int i=0;i<5;i++){
                 for(int j=0;j<5;j++){
                     if(this->a[i][j]){
-                        texto += "1,";
+                        texto += "0,";
                     }
                     else{
-                        texto += "0,";
+                        texto += "1,";
                     }
                 }
                 texto+="\n";

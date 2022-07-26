@@ -1,5 +1,6 @@
 #include "pelicula.h"
 #include "ui_pelicula.h"
+#include<QDebug>
 
 Pelicula::Pelicula(QWidget *parent) :QWidget(parent), ui(new Ui::Pelicula){
     ui->setupUi(this);
@@ -69,7 +70,7 @@ QString Pelicula::getHora(){
     return this->hora;
 }
 
-/*void Pelicula::Imprimir(){
+void Pelicula::Imprimir(){
     qDebug()<<"Titulo: "<<this->Titulo;
     qDebug()<<"Duracion: "<<this->Duracion;
     qDebug()<<"Foto: "<<this->Foto;
@@ -82,10 +83,11 @@ QString Pelicula::getHora(){
             qDebug()<<s->getValue(i,j);
         }
     }
-}*/
+}
 
 void Pelicula::CrearAsientos(QString r){
     s->Create(r);
+    this->ruta = r;
 }
 
 void Pelicula::setCompra(int i, int j){
@@ -94,6 +96,11 @@ void Pelicula::setCompra(int i, int j){
 
 bool Pelicula::getAsiento(int i, int j){
     return s->getValue(i,j);
+}
+
+void Pelicula::FinCompra()
+{
+    s->FinCompra();
 }
 
 

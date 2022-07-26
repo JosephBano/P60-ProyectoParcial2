@@ -9,14 +9,12 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    compra.cpp \
     main.cpp \
     mainwindow.cpp \
     pelicula.cpp \
     sala.cpp
 
 HEADERS += \
-    compra.h \
     mainwindow.h \
     pelicula.h \
     sala.h
@@ -34,6 +32,8 @@ RESOURCES += \
     iconos.qrc
 
 DISTFILES += \
+    Estilos/Diffnes.qss \
+    Estilos/Irrorater.qss \
     asientos/p1.csv \
     asientos/p2.csv \
     asientos/p3.csv \

@@ -1,0 +1,16 @@
+--------------Compra--------------
+---Tue Jul 26 05:05:42 2022---
+---ID: 2---
+---Titulo: Thor: Love and Thunder---
+---Duracion: 157min---
+---Cantidad de Asientos: 1---
+---Asientos: 
+------A1
+
+---Adultos:       1 .... 7$---
+---Niños:           0 .... 0$---
+---Adultos Mayores: 0 .... 0$---
+
+
+---------------------------------------------------------------------------
+-----Total de Compra:    7$---

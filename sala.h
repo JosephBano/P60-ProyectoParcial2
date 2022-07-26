@@ -16,6 +16,7 @@ class sala{
         void setValue(int,int,bool);
         void Create(QString);
         void Compro(int,int);
+        void FinCompra();
 
 };
 

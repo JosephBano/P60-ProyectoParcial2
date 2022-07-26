@@ -12,5 +12,6 @@
         <file>iconos/derecha.png</file>
         <file>iconos/izquierda.png</file>
         <file>iconos/casa.png</file>
+        <file>iconos/graficar.png</file>
     </qresource>
 </RCC>

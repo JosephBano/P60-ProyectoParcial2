@@ -31,6 +31,7 @@ public:
     void CrearAsientos(QString);
     void setCompra(int,int);
     bool getAsiento(int,int);
+    void FinCompra();
 
 private:
     Ui::Pelicula *ui;
@@ -40,6 +41,7 @@ private:
     bool estreno;
     QString hora;
     sala *s = new sala();
+    QString ruta;
 };
 
 #endif // PELICULA_H
