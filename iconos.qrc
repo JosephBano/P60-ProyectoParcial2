@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>iconos/matriz.png</file>
+        <file>iconos/Butaca.png</file>
+        <file>iconos/JurworldCartelera.jpg</file>
+        <file>iconos/LightyearCartelera.jpg</file>
+        <file>iconos/MiniosCartelera.jpg</file>
+        <file>iconos/SevenCartelera.jpg</file>
+        <file>iconos/ThorCartelera.jpg</file>
+        <file>iconos/asiento-de-cine.png</file>
+        <file>iconos/cinta.png</file>
+        <file>iconos/derecha.png</file>
+        <file>iconos/izquierda.png</file>
+        <file>iconos/casa.png</file>
+    </qresource>
+</RCC>

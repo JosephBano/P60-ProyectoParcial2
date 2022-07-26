@@ -1,20 +1,13 @@
-#include "principal.h"
-#include <QDialog>
-#include <QAbstractButton>
-#include <facturaui.h>
+#include "mainwindow.h"
+
 #include <QApplication>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    Principal  w;
-    w.show();
+    MainWindow w;
+
+    w.showMaximized();
+
     return a.exec();
 }
-
-//Prueba Joseph
-//Prueba Carlos
-//Prueba Pedro
-//Prueba y fusion Bryan
-//Prueba Pedro boletos
-
