@@ -29,7 +29,8 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
-    iconos.qrc
+    iconos.qrc \
+    translations.qrc
 
 DISTFILES += \
     Estilos/Diffnes.qss \
